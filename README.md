@@ -1,37 +1,46 @@
-# node_assigment
+# Shop Tech Project
 
-#Shop Tech Project
-Overview
-Shop Tech is a straightforward project that combines both backend and frontend development. It leverages Node.js with Express for the backend and React with Redux for the frontend. The communication between the frontend and backend is handled through Axios, facilitating seamless API calls.
+## Overview
 
-#Features
-User Roles
-The project introduces the concept of user roles, distinguishing between regular users and administrators (admins). This role-based system influences the functionalities available to different users.
+**Shop Tech** is a simple e-commerce project that combines both backend and frontend components. The backend is built with Node.js using the Express framework, while the frontend utilizes React with Redux for state management. Axios is employed for efficient API communication.
 
-User Authentication
-User registration is a fundamental aspect of the system, ensuring that users have unique identities within the application. Passwords are securely hashed using bcrypt for enhanced security.
+## Features
 
-Admin Privileges
-A key feature is the admin role, which grants specific privileges. Only users with the admin role are authorized to add new products to the shop. This functionality is accessible via the endpoint products/add-product.
+### User Roles
 
-Product Management
-The application provides a simple product management system, allowing admins to expand the product catalog by adding new items. Regular users can explore the available products, add them to their carts, and review previously purchased items.
+The project introduces user roles, distinguishing between regular users and administrators. This role-based system influences available functionalities.
 
-Shopping Cart
-Users, regardless of their roles, can utilize a shopping cart feature. They can add products to their carts, providing a convenient way to keep track of selected items before proceeding to checkout.
+### User Authentication
 
-Order History
-For regular users, there is a straightforward order history feature. Users can view their previous orders, enhancing transparency and providing a record of their interactions with the platform.
+User registration ensures unique identities with securely hashed passwords using bcrypt for enhanced security.
 
-Usage Guidelines
-Admin Access:
+### Admin Privileges
 
-To access admin privileges, ensure that your user account has been assigned the admin role.
-Use the admin role to add new products to the shop.
-Regular User Actions:
+Administrators, with specific roles, are authorized to add new products to the shop. This functionality is accessible via `products/add-product`.
 
-Explore the product catalog.
-Add items to your shopping cart.
-Review your order history.
-Contributing
+### Product Management
+
+The application provides a simple product management system, allowing administrators to expand the product catalog. Regular users can explore, add to carts, and review purchased items.
+
+### Shopping Cart
+
+Users can utilize a shopping cart feature to add and keep track of selected items before proceeding to checkout.
+
+### Order History
+
+Regular users can view their order history for transparency and record-keeping.
+
+## Usage Guidelines
+
+- **Admin Access:**
+  - Ensure your user account has the admin role to access admin privileges.
+  - Use admin privileges to add new products.
+
+- **Regular User Actions:**
+  - Explore the product catalog.
+  - Add items to your shopping cart.
+  - Review your order history.
+
+## Contributing
+
 Feel free to contribute to the project by submitting bug reports, feature requests, or pull requests. For major changes, please open an issue first to discuss proposed alterations.
